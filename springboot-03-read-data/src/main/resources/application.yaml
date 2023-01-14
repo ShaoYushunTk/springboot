@@ -1,0 +1,14 @@
+lesson: SpringBoot
+
+server:
+  port: 8082
+
+enterprise:
+  name: tom
+  age: 18
+  tel: 18988918917
+  subject:
+    - Java
+    - SSM
+    - SpringBoot
+

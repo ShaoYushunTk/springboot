@@ -1,0 +1,33 @@
+#set current environment
+spring:
+  profiles:
+    active: pro
+
+---
+#develop
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8082
+
+---
+
+#production
+spring:
+  config:
+    activate:
+      on-profile: pro
+server:
+  port: 8083
+
+---
+
+#test
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 8084

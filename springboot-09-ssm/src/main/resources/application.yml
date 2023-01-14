@@ -1,0 +1,13 @@
+# TODO 端口号配置
+server:
+  port: 8082
+
+---
+# TODO 数据源信息配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db1?useServerPrepStmts=true
+    username: root
+    password:
+    type: com.alibaba.druid.pool.DruidDataSource
